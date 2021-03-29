@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlogDeCafe</title>
+    <!-- Prelod-->
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+
+        <div class="contenedor">
+            <div class="barra">
+                <a class="Logo" href="index.html">
+                    <h1 class="Logo__nombre no-margin centrar-texto">Blog <span class="Logo__bold">DeCafé</span> </h1>
+                </a>
+
+                <nav class="navegacion">
+                    <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                    <a href="cursos.html" class="navegacion__enlace">Cursos</a>
+                    <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+                </nav>
+            </div>
+        </div>
+
+        <div class="header__texto">
+            <h2 class="no-margin">Blog de Café con consejos y cursos</h2>
+            <p class="no-margin">Aprende de los expertos con las mejores recetas y consejos</p>
+        </div>
+    </header>
+
+    <div class="contenedor contenedor-principal">
+        <main class="blog">
+            <h3>Nuestro Blog</h3>
+            <!--Articulo-->
+            <article class="entrada">
+                <div class="entrada__imagen">
+                    <picture>
+                        <source srcset="img/blog1.webp" type="image/webp">
+                        <img loading="Lazy" src="img/blog1.jpg" alt="Granos de cafe">
+                    </picture>
+                </div>
+
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">Granos de Café</h4>
+                    <p>Un grano de café es una semilla de la planta Coffea y 
+                    la fuente del café. Es el hoyo dentro de la fruta roja o 
+                    morada que a menudo se denomina cereza. Al igual que las 
+                    cerezas comunes, la fruta del café también es una de las 
+                    llamadas frutas de hueso.</p>
+                    <a href="entrada.html" class="boton boton--primario">Leer más</a>
+                </div>
+            </article>
+            <!--Articulo-->
+            <article class="entrada">
+                <div class="entrada__imagen">
+                    <picture>
+                        <source srcset="img/blog2.webp" type="image/webp">
+                        <img loading="Lazy" src="img/blog2.jpg" alt="Granos de cafe">
+                    </picture>
+                </div>
+
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">3 Deliciosa Recetas de Café</h4>
+                    <p>El café es uno de los productos más consumidos en todo 
+                    el mundo y aunque en un principio solo teníamos la receta 
+                    básica, actualmente existe todo un mundo de recetas de bebidas 
+                    de café y nosotros tenemos las mejores para que seas una experto 
+                    en tu bebida favorita.</p>
+                    <a href="entrada.html" class="boton boton--primario">Leer más</a>
+                </div>
+            </article>
+            <!--Articulo-->
+            <article class="entrada">
+                <div class="entrada__imagen">
+                    <picture>
+                        <source srcset="img/blog3.webp" type="image/webp">
+                        <img loading="Lazy" src="img/blog3.jpg" alt="Granos de cafe">
+                    </picture>
+                </div>
+
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">Beneficios del Café</h4>
+                    <p>Nada más tomar un café, la cafeína actúa en el cerebro, 
+                    bloqueando un neurotransmisor, la adenosina, que hace que 
+                    aumenten otras sustancias como la dopamina o la norepinefrina, 
+                    que aceleran la actividad cerebral. Muchos estudios realizados 
+                    en humanos muestran que el café mejora varios aspectos de la 
+                    función cerebral.</p>
+                    <a href="entrada.html" class="boton boton--primario">Leer más</a>
+                </div>
+            </article>
+        </main>
+
+        <!--Sidebar-->
+        <aside class="sidebar">
+            <h3>Nuestros Cursos y Calleres</h3>
+            <!--Elementos-->
+            <ul class="cursos no-padding">
+                <!--Curso 1-->
+                <li class="widget-curso">
+                    <h4 class="no-margin">Tecnica de extracción de café</h4>
+                    <p class="widget-curso__label">Precio: 
+                        <span class="widget-curso__info">Gratis</span>
+                    </p>
+                    <p class="widget-curso__label">Cupo: 
+                        <span class="widget-curso__info">20</span>
+                    </p>
+                    <a href="cursos.html" class="boton boton--secundario">Más infromación</a>
+                </li>
+                <!--Curso 2-->
+                <li class="widget-curso">
+                    <h4 class="no-margin">4 Recetas de Café para Principiantes</h4>
+                    <p class="widget-curso__label">Precio: 
+                        <span class="widget-curso__info">Gratis</span>
+                    </p>
+                    <p class="widget-curso__label">Cupo: 
+                        <span class="widget-curso__info">20</span>
+                    </p>
+                    <a href="cursos.html" class="boton boton--secundario">Más información</a>
+                </li>
+            </ul>
+        </aside>
+        <!--Fin de sidebar-->
+    </div>
+
+    <footer class="footer">
+        <div class="contenedor">
+            <div class="barra">
+                <a class="Logo" href="index.html">
+                    <h1 class="Logo__nombre no-margin centrar-texto">Blog <span class="Logo__bold">DeCafé</span> </h1>
+                </a>
+
+                <nav class="navegacion">
+                    <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                    <a href="cursos.html" class="navegacion__enlace">Cursos</a>
+                    <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+                </nav>
+            </div>
+        </div>
+
+    </footer>
+    
+</body>
+</html>
